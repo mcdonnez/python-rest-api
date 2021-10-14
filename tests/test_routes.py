@@ -5,6 +5,7 @@ import json
 import unittest
 from flask import Flask
 from app.utils.json_encoder import CamelCaseEncoder
+from app import routes
 # pylint: disable=missing-class-docstring
 # pylint: disable=missing-function-docstring
 

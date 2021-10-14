@@ -6,4 +6,3 @@ from flask import jsonify
 def healthcheck():
     """basic service healthcheck"""
     return jsonify({"status": "ok"}), 200
-

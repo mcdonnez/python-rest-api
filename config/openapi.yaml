@@ -3,7 +3,7 @@ openapi: 3.0.0
 info:
   title: python-rest-api-template
   description: >
-    python-rest-api-template is a production ready python template to learn more go to (insert article on medium)
+    python-rest-api-template is a production ready python template
   version: '1.0'
 servers:
   - url: http://localhost:8080/python-rest-api-template
