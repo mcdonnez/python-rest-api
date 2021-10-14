@@ -1,0 +1,29 @@
+# Go to https://editor.swagger.io/ to edit and update
+openapi: 3.0.0
+info:
+  title: python-rest-api-template
+  description: >
+    python-rest-api-template is a production ready python template to learn more go to (insert article on medium)
+  version: '1.0'
+servers:
+  - url: http://localhost:8080/python-rest-api-template
+    description: localhost server for development
+tags:
+  - name: python-rest-api-template
+paths:
+  /healthcheck:
+    get:
+      summary: Return service status
+      tags:
+        - python-rest-api-template
+      operationId: app.routes.healthcheck
+      responses:
+        '200':
+          description: status code
+          content:
+            'application/json':
+              schema:
+                properties:
+                  status:
+                    type: string
+                    example: 'ok'
